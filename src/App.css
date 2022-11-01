@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #141414;
+  color: #ffffff;
+}
+
+/* 
+media query for medium screens and up
+*/
+@media screen and (min-width: 768px) {}
+
+/* 
+media query for large screens and up
+*/
+@media screen and (min-width: 980px) {}
