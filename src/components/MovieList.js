@@ -5,7 +5,7 @@ const MovieList = (props) => {
     const FavComponent = props.favComponent;
     return (
         <>
-            {props?.movies?.map((movie) => (
+            {props.movies.map((movie) => (
                 <div className="image-container d-flex flex-column justify-content-center 
                 align-items-center m-3 w-auto">
                     <img src={movie.Poster} alt={movie.Title}></img>
